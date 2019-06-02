@@ -1,0 +1,26 @@
+Changelog k3 v0.03
+
+database:
+status: menambah kolom poin
+user: user yg diapprove fatality diberi level 4
+general: menambah kolom reset
+observasi: menambah kolom tgl dan idobs
+- observasi dibedakan dg idobs sebagai pk
+- menghapus index tabel observasi pada nip
+
+sistem:
+user: user yang mempunyai level 4 tidak dapat login atau muncul pada perhitungan/tampilan
+dashboard: merubah sistem perhitungan pada hasil tes
+tes: pengaturan quiz aktif untuk admin
+useradmin: menambah parameter tanggal pada reset tes utk acuan laporan observasi
+observasi: perbaikan input observasi untuk super
+-laporan observasi dapat dibuat banyak
+-tiap laporan observasi memiliki poin yang dapat merubah hasil akhir pada peringkat
+-menambahkan input nip nama dan divisi utk tambah data
+
+UI:
+dashboard: menambah tampilan poin observasi dan nilai akhir untuk admin dan super
+tes: mengembalikan tampilan sebelum tes utk user
+tes: pengaturan quiz aktif untuk admin
+observasi: menambah tampilan tanggal pada laporan observasi
+observasi: laporan observasi yg ditampilkan hanya tgl last reset keatas
